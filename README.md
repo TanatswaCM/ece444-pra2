@@ -40,12 +40,12 @@ https://github.com/varadbhogayata/varadbhogayata.github.io.
 - <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
 
 ## Sections 📚
-✔️ About me\
-✔️ Experience\
+✔️ About me\I am third ECE student  at the University of Toronto. 
+✔️ Experience\I have taken an ECE297 as a result I am familiar with software develpment
 ✔️ Projects \
-✔️ Skills \
-✔️ Education\
-✔️ Contact Info\
+✔️ Skills \Python and C++
+✔️ Education\Currently Completing: Bachelor of Applied Science inn Computer Engineering
+✔️ Contact Info\email: tmukondiwa04@gmail.com
 ✔️ Resume
 
 To view a live example, **[click here](https://varadbhogayata.github.io/)**
