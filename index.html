@@ -19,18 +19,23 @@
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
   <style>
-  .royal-blue {
-    background-color: #4169E1 !important;
-  }
+  /* =========================
+   Royal Blue Theme
+   ========================= */
 
-  .royal-blue-text {
-    color: #4169E1 !important;
-  }
+.royal-blue {
+  background-color: #4169E1 !important;
+}
 
-  .royal-blue-text.hoverline:hover {
-    color: #27408B !important;
-  }
-  #intro {
+.royal-blue-text {
+  color: #4169E1 !important;
+}
+
+.royal-blue-text.hoverline:hover {
+  color: #27408B !important;
+}
+
+#intro {
   background: #4169E1 !important;
 }
 
@@ -38,59 +43,102 @@
   display: none !important;
 }
 
-/* Dark mode */
-body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
 
-body.dark-mode .card {
-  background-color: #1e1e1e;
-  color: #ffffff;
-}
-
-body.dark-mode .card-content {
-  color: #ffffff;
-}
-
-body.dark-mode p,
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode h4,
-body.dark-mode h5,
-body.dark-mode h6 {
-  color: #ffffff;
-}
-
-body.dark-mode nav {
-  background-color: #111111;
-}
-
-body.dark-mode .container {
-  color: #ffffff;
-}
-
-/* Optional: keep links visible */
-body.dark-mode a {
-  color: #90caf9;
-}
+/* =========================
+   Dark Mode
+   ========================= */
 
 html,
 body {
   min-height: 100%;
 }
 
-body.dark-mode,
-html:has(body.dark-mode) {
+/* Main page background */
+body.dark-mode {
   background-color: #121212 !important;
   background-image: none !important;
+  color: #ffffff;
 }
 
+/* Main content and sections */
 body.dark-mode main,
 body.dark-mode section {
   background-color: #121212 !important;
   background-image: none !important;
+}
+
+
+/* =========================
+   Navigation / Sidebar
+   ========================= */
+
+body.dark-mode nav,
+body.dark-mode nav ul,
+body.dark-mode .side-nav,
+body.dark-mode .sidenav {
+  background-color: #181818 !important;
+}
+
+/* Top-left logo/photo area */
+body.dark-mode .logo,
+body.dark-mode .logo a,
+body.dark-mode #logo-container,
+body.dark-mode nav .logo,
+body.dark-mode .side-nav .logo,
+body.dark-mode .sidenav .logo {
+  background-color: #181818 !important;
+}
+
+
+/* Navigation text */
+body.dark-mode nav a,
+body.dark-mode .side-nav a,
+body.dark-mode .sidenav a {
+  color: #ffffff !important;
+}
+
+/* Navigation icons */
+body.dark-mode nav i,
+body.dark-mode .side-nav i,
+body.dark-mode .sidenav i {
+  color: #ffffff !important;
+}
+
+
+/* =========================
+   Cards
+   ========================= */
+
+body.dark-mode .card,
+body.dark-mode .card-content {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================
+   Text
+   ========================= */
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #ffffff !important;
+}
+
+
+/* Links inside page content */
+body.dark-mode main a {
+  color: #90caf9;
+}
+
+body.dark-mode #intro {
+  background-color: #4169E1 !important;
 }
 </style>
   <title>Tanatswa Mukondiwa | Software Developer</title>
