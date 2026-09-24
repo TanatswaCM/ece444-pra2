@@ -570,321 +570,25 @@
 
     <!-- Fourth Section: Projects -->
 <section id="projects" class="section scrollspy">
-  <h3 class="page-title white-text royal-blue">Projects</h3>
+
+  <h3 class="page-title white-text royal-blue">
+    Projects
+  </h3>
 
   <div class="container">
-    <div class="row">
 
-      <!-- Mapping and Navigation Application -->
-      <div class="col s12 m6 l6">
-        <div class="card medium">
+    <!-- Projects will be inserted here -->
+    <div id="projects-container"></div>
 
-          <!--
-          Add a screenshot later if you have one:
-          <div class="card-image waves-effect waves-block waves-light">
-            <img
-              alt="Mapping and navigation application"
-              src="/assets/img/project-map.jpg"
-              class="activator"
-            />
-          </div>
-          -->
+    <!-- Load More Button -->
+    <button id="load-more-btn"
+            class="btn royal-blue"
+            onclick="loadMoreProjects()">
+      Load More
+    </button>
 
-          <div class="card-content">
-            <span class="card-title activator brown-text light hoverline">
-              Mapping & Navigation Application
-              <i class="mdi-navigation-more-vert right"></i>
-            </span>
-
-            <p>
-              A C++ mapping application featuring street search,
-              route finding, and navigation functionality.
-            </p>
-          </div>
-
-          <div class="card-reveal">
-            <span class="card-title grey-text">
-              <small>Project Details</small>
-              <i class="mdi-navigation-close right"></i>
-            </span>
-
-            <ul>
-              <li>
-                Developed components of an interactive mapping application
-                using C++.
-              </li>
-
-              <li>
-                Implemented shortest-path routing using Dijkstra's algorithm.
-              </li>
-
-              <li>
-                Designed data structures for storing and efficiently
-                retrieving street and intersection information.
-              </li>
-
-              <li>
-                Worked on route generation and optimization between
-                intersections and delivery locations.
-              </li>
-
-              <li>
-                Developed user-interface functionality for search,
-                directions, and navigation.
-              </li>
-
-              <li>
-                <b>Technologies:</b> C++, STL, GTK, Git
-              </li>
-            </ul>
-
-            <!--
-            Add this when you have a public GitHub repository for the project.
-
-            <div class="card-action">
-              <a
-                aria-label="View Mapping Application source code"
-                href="YOUR_GITHUB_REPOSITORY_URL"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-position="top"
-                data-tooltip="View Source"
-                class="btn-floating btn-large waves-effect waves-light royal-blue tooltipped"
-              >
-                <i class="fa fa-github"></i>
-              </a>
-            </div>
-            -->
-
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Space Pong -->
-      <div class="col s12 m6 l6">
-        <div class="card medium">
-
-          <!--
-          Add a screenshot later:
-          <div class="card-image waves-effect waves-block waves-light">
-            <img
-              alt="Space Pong game"
-              src="/assets/img/project-space-pong.jpg"
-              class="activator"
-            />
-          </div>
-          -->
-
-          <div class="card-content">
-            <span class="card-title activator brown-text light hoverline">
-              Space Pong
-              <i class="mdi-navigation-more-vert right"></i>
-            </span>
-
-            <p>
-              A space-themed Pong game featuring custom physics,
-              gravity mechanics, AI opponents, and additional obstacles.
-            </p>
-          </div>
-
-          <div class="card-reveal">
-            <span class="card-title grey-text">
-              <small>Project Details</small>
-              <i class="mdi-navigation-close right"></i>
-            </span>
-
-            <ul>
-              <li>
-                Developed a Pong-inspired game with custom space-themed
-                gameplay mechanics.
-              </li>
-
-              <li>
-                Implemented paddle controls, ball movement, collision
-                detection, scoring, and game-state management.
-              </li>
-
-              <li>
-                Added gravity effects, asteroids, AI-controlled opponents,
-                and multi-ball gameplay.
-              </li>
-
-              <li>
-                Applied object-oriented programming and modular design
-                principles to organize the game systems.
-              </li>
-
-              <li>
-                Worked on implementations using both Python and C++.
-              </li>
-
-              <li>
-                <b>Technologies:</b> Python, Pygame, C++
-              </li>
-            </ul>
-
-            <!--
-            Add when a public repository is available.
-
-            <div class="card-action">
-              <a
-                aria-label="View Space Pong source code"
-                href="YOUR_GITHUB_REPOSITORY_URL"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-position="top"
-                data-tooltip="View Source"
-                class="btn-floating btn-large waves-effect waves-light royal-blue tooltipped"
-              >
-                <i class="fa fa-github"></i>
-              </a>
-            </div>
-            -->
-
-          </div>
-        </div>
-      </div>
-
-
-      <!-- FPGA / Verilog Project -->
-      <div class="col s12 m6 l6">
-        <div class="card medium">
-
-          <!--
-          Optional screenshot:
-          <div class="card-image waves-effect waves-block waves-light">
-            <img
-              alt="FPGA and Verilog project"
-              src="/assets/img/project-fpga.jpg"
-              class="activator"
-            />
-          </div>
-          -->
-
-          <div class="card-content">
-            <span class="card-title activator brown-text light hoverline">
-              FPGA & Digital Logic Projects
-              <i class="mdi-navigation-more-vert right"></i>
-            </span>
-
-            <p>
-              Digital systems designed and implemented using Verilog
-              on FPGA hardware.
-            </p>
-          </div>
-
-          <div class="card-reveal">
-            <span class="card-title grey-text">
-              <small>Project Details</small>
-              <i class="mdi-navigation-close right"></i>
-            </span>
-
-            <ul>
-              <li>
-                Designed and implemented digital logic circuits using
-                Verilog.
-              </li>
-
-              <li>
-                Worked with multiplexers, adders, latches, flip-flops,
-                memory, and finite-state logic.
-              </li>
-
-              <li>
-                Developed hardware designs targeting FPGA development
-                boards.
-              </li>
-
-              <li>
-                Used simulation and waveform analysis to test and debug
-                digital designs.
-              </li>
-
-              <li>
-                Worked with on-chip memory and seven-segment display
-                interfaces.
-              </li>
-
-              <li>
-                <b>Technologies:</b> Verilog, Quartus, ModelSim, FPGA
-              </li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-
-
-      <!-- xv6 / Operating Systems -->
-      <div class="col s12 m6 l6">
-        <div class="card medium">
-
-          <!--
-          Optional screenshot:
-          <div class="card-image waves-effect waves-block waves-light">
-            <img
-              alt="xv6 operating systems project"
-              src="/assets/img/project-xv6.jpg"
-              class="activator"
-            />
-          </div>
-          -->
-
-          <div class="card-content">
-            <span class="card-title activator brown-text light hoverline">
-              xv6 Operating Systems
-              <i class="mdi-navigation-more-vert right"></i>
-            </span>
-
-            <p>
-              Systems programming work using the xv6 RISC-V
-              teaching operating system.
-            </p>
-          </div>
-
-          <div class="card-reveal">
-            <span class="card-title grey-text">
-              <small>Project Details</small>
-              <i class="mdi-navigation-close right"></i>
-            </span>
-
-            <ul>
-              <li>
-                Studied operating-system concepts using the xv6
-                RISC-V teaching kernel.
-              </li>
-
-              <li>
-                Worked with kernel and user-space code written in C.
-              </li>
-
-              <li>
-                Explored the implementation and execution path of
-                system calls.
-              </li>
-
-              <li>
-                Used Linux development environments and QEMU for
-                compiling and running xv6.
-              </li>
-
-              <li>
-                Gained experience working with low-level operating-system
-                interfaces and kernel code.
-              </li>
-
-              <li>
-                <b>Technologies:</b> C, xv6, RISC-V, Linux, QEMU, Git
-              </li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
   </div>
+
 </section>
 
     <!-- Fifth Section: Skills -->
@@ -1428,6 +1132,103 @@
     \:\__\ /:/ / \::/ / \:\__\ \:\__\ /:/ / \::::/__/ \::/ /
     \/__/ \/__/ \/__/ \/__/ \/__/ \/__/ ~~~~ \/__/
   </small> -->
+
+<script>
+
+  // 1. Store information for at least four projects
+  const projects = [
+    {
+      title: "Space Pong",
+      description: "A Pong-style game with gravity, obstacles, and AI opponents.",
+      technologies: "Python, Pygame"
+    },
+
+    {
+      title: "Wallpaper App",
+      description: "An Android application that automatically rotates wallpapers from a photo album.",
+      technologies: "Kotlin, Jetpack Compose"
+    },
+
+    {
+      title: "Map Application",
+      description: "A mapping application that finds routes and displays geographic information.",
+      technologies: "C++, GTK"
+    },
+
+    {
+      title: "FPGA Tile Game",
+      description: "A tile-based project created using an FPGA and hardware description languages.",
+      technologies: "Verilog, Quartus"
+    }
+  ];
+
+
+  // Number of projects currently displayed
+  let projectsDisplayed = 0;
+
+  // Number to show each time
+  const projectsPerLoad = 2;
+
+
+  // 3. Function that reads project data and inserts HTML
+  function displayProjects() {
+
+    const container = document.getElementById("projects-container");
+
+    const end = Math.min(
+      projectsDisplayed + projectsPerLoad,
+      projects.length
+    );
+
+    for (let i = projectsDisplayed; i < end; i++) {
+
+      const project = projects[i];
+
+      const projectHTML = `
+        <div class="card">
+          <div class="card-content">
+
+            <span class="card-title">
+              ${project.title}
+            </span>
+
+            <p>
+              ${project.description}
+            </p>
+
+            <p>
+              <strong>Technologies:</strong>
+              ${project.technologies}
+            </p>
+
+          </div>
+        </div>
+      `;
+
+      container.innerHTML += projectHTML;
+    }
+
+    projectsDisplayed = end;
+
+
+    // 6. Hide button when every project is displayed
+    if (projectsDisplayed >= projects.length) {
+      document.getElementById("load-more-btn").style.display = "none";
+    }
+  }
+
+
+  // 5. Load remaining projects
+  function loadMoreProjects() {
+    displayProjects();
+  }
+
+
+  // 4. Initially display two projects
+  displayProjects();
+
+</script>
+  
 </body>
 
 </html>
