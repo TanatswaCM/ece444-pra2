@@ -141,16 +141,26 @@ body.dark-mode #intro {
   background-color: #4169E1 !important;
 }
 
-/* Make navigation labels and icons white in dark mode */
+/* FORCE sidebar/navigation text and icons to white in dark mode */
 body.dark-mode nav a,
-body.dark-mode nav a span,
-body.dark-mode nav i,
+body.dark-mode nav a *,
 body.dark-mode .side-nav a,
-body.dark-mode .side-nav a span,
-body.dark-mode .side-nav i,
+body.dark-mode .side-nav a *,
+body.dark-mode .side-nav li a,
+body.dark-mode .side-nav li a *,
 body.dark-mode .sidenav a,
-body.dark-mode .sidenav a span,
-body.dark-mode .sidenav i {
+body.dark-mode .sidenav a *,
+body.dark-mode .sidenav li a,
+body.dark-mode .sidenav li a * {
+  color: #ffffff !important;
+}
+
+body.dark-mode nav a:hover,
+body.dark-mode nav a:hover *,
+body.dark-mode .side-nav a:hover,
+body.dark-mode .side-nav a:hover *,
+body.dark-mode .sidenav a:hover,
+body.dark-mode .sidenav a:hover * {
   color: #ffffff !important;
 }
 </style>
